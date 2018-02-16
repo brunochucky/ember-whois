@@ -1,0 +1,19 @@
+{{outlet}}
+
+<!-- Begin page content -->
+	<h1 class="mt-5">Search</h1>
+	      
+	      <form action="{{href-to 'whois_search'}}" class="form-inline mb-5">
+	      	
+		      	<input type="text" name="query" value="{{query}}" placeholder="yourdomain.com" class="form-control mr-sm-2 mb-2">
+				
+		      	<input type="submit" value="Search" class="btn btn-outline-primary form-control mb-2">
+		      	
+	      	
+	      </form>
+
+		{{#if query}}
+		<h2 class="domain mt-5"><span class="fa fa-globe"></span> {{query}}</h2>
+		{{/if}}
+
+	<p id="info"></p>
