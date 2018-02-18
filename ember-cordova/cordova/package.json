@@ -1,0 +1,17 @@
+{
+    "name": "com.embercordova.emberapp",
+    "version": "1.0.0",
+    "displayName": "com.emancipa.whoisapp",
+    "cordova": {
+        "platforms": [
+            "android"
+        ],
+        "plugins": {
+            "cordova-plugin-whitelist": {}
+        }
+    },
+    "dependencies": {
+        "cordova-android": "~6.2.3",
+        "cordova-plugin-whitelist": "1"
+    }
+}

@@ -34,6 +34,7 @@
     "ember-cli-shims": "^1.2.0",
     "ember-cli-sri": "^2.1.0",
     "ember-cli-uglify": "^2.0.0",
+    "ember-cordova": "^1.0.8",
     "ember-data": "~2.18.0",
     "ember-export-application-global": "^2.0.0",
     "ember-href-to": "^1.15.1",
@@ -46,5 +47,6 @@
   },
   "engines": {
     "node": "^4.5 || 6.* || >= 7.*"
-  }
+  },
+  "dependencies": {}
 }
